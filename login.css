@@ -1,0 +1,119 @@
+/* General Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container to hold the page content */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the wrapper fills full height */
+}
+
+/* Styling for the login container */
+.register-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.register-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2e4d1c;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Input field styling */
+input.form-control {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+/* Eye icon styling */
+.input-group-append .input-group-text {
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+#eye-icon {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Button styling */
+button.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e40e1;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+    background-color: #2220bc;
+}
+
+/* Alert box for errors */
+.alert.alert-danger {
+    margin-top: 20px;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f5c6cb;
+}
+
+/* Footer styling */
+footer {
+    margin-top: auto; /* Pushes footer to the bottom */
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #9cba7b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Ensures the footer stays at the bottom */
+footer {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+/* Adjusting input field focus effect */
+input.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.8);
+}

@@ -1,0 +1,94 @@
+/* Body Styling */
+body {
+    background-color: #fffde6; /* Match with main site */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1); /* Softer, modern shadow */
+    border-radius: 16px; /* Slightly more rounded */
+}
+
+/* Header */
+h2 {
+    color: #2e4d1c; /* Darker, rich green like navbar and hero-banner */
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Table */
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+/* Button Base */
+.btn {
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 6px 16px;
+    transition: all 0.2s ease;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: black;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #666;
+}
